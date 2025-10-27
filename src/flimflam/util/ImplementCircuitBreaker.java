@@ -42,6 +42,7 @@ public class ImplementCircuitBreaker {
                 for (int i = 0; i < throwablesToBreakOn.length; i++) {
                     if (throwablesToBreakOn[i].isInstance(ex)) {
                         // increment the last time we called this method
+                        return null;
                     }
                 }
                 throw ex;
