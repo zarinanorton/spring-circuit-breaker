@@ -1,12 +1,6 @@
-package flimflam.controller;
+package controller;
 
-import flimflam.HubWebService;
-import flimflam.domain.ResponseEntity;
-
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Path;
+import domain.ResponseEntity;
 
 public class IndexController extends Controller {
 

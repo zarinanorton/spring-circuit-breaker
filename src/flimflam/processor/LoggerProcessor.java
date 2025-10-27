@@ -1,6 +1,6 @@
-package flimflam.processor;
+package processor;
 
-import flimflam.annotations.Logger;
+import annotations.Logger;
 import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import java.util.Set;

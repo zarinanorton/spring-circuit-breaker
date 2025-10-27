@@ -1,7 +1,7 @@
-package flimflam.controller;
+package controller;
 
 import flimflam.HubWebService;
-import flimflam.domain.ResponseEntity;
+import domain.ResponseEntity;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

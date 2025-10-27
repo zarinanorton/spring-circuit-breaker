@@ -1,10 +1,10 @@
 package flimflam;
 
-import flimflam.controller.Controller;
-import flimflam.domain.ResponseEntity;
-import flimflam.registry.ControllerRegistry;
-import flimflam.util.Logger;
-import flimflam.domain.Request;
+import controller.Controller;
+import domain.ResponseEntity;
+import registry.ControllerRegistry;
+import util.Logger;
+import domain.Request;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,9 +1,9 @@
-package flimflam.registry;
+package registry;
 
-import flimflam.controller.Controller;
-import flimflam.controller.IndexController;
-import flimflam.controller.JavascriptController;
-import flimflam.controller.StylesheetController;
+import controller.Controller;
+import controller.IndexController;
+import controller.JavascriptController;
+import controller.StylesheetController;
 
 import java.nio.file.Path;
 

@@ -1,4 +1,4 @@
-package flimflam.controller;
+package controller;
 
 public class JavascriptController extends Controller {
     public String getResourcePath() {

@@ -1,4 +1,4 @@
-package flimflam.util;
+package util;
 
 import java.util.HashMap;
 import java.util.Map;

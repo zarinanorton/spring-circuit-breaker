@@ -28,4 +28,27 @@
             <version>1.9.22</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <sourceDirectory>src/flimflam</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/flimflam/resources</directory>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.2</version> <!-- Use the latest version -->
+                <configuration>
+                    <!-- Optional: configure includes/excludes for test classes -->
+                    <includes>
+                        <include>**/*Test.java</include>
+                    </includes>
+                    <skipTests>false</skipTests>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

@@ -1,4 +1,4 @@
-package flimflam.controller;
+package controller;
 
 public class StylesheetController extends Controller {
     @Override

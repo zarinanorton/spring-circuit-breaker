@@ -1,4 +1,4 @@
-package flimflam.domain;
+package domain;
 
 public class Request {
     String method;

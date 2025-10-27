@@ -1,6 +1,6 @@
-package flimflam.util;
+package util;
 
-import flimflam.annotations.circuitbreaker.BreakOn;
+import annotations.circuitbreaker.BreakOn;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

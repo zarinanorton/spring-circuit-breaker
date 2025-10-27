@@ -1,4 +1,4 @@
-package flimflam.util;
+package util;
 
 public class Logger {
 
