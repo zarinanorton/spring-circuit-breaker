@@ -1,7 +1,17 @@
 package flimflam.util;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CallLog {
+    final String className;
+    final Map<String, Long> methodsToLastCall;
 
-    long lastCallAt;
-
+    public CallLog(String className) {
+        this.className = className;
+        this.methodsToLastCall = new HashMap<>();
+    }
+    public Long getLastTimeCalled(String methodName) {
+        return methodsToLastCall.getOrDefault(methodName, -1l);
+    }
 }
