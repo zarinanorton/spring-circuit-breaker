@@ -1,0 +1,19 @@
+body {
+    padding: 1em;
+    background-color: #2a0110;
+    color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header > div {
+    margin-right: 10px;
+}
+
+.body {
+    border: 1px solid whitesmoke;
+    padding: 1em;
+}
