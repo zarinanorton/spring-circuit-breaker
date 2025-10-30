@@ -2,6 +2,7 @@ package pojo;
 
 import annotations.circuitbreaker.BreakOn;
 import annotations.circuitbreaker.ProtectedCircuit;
+import exception.NoConnectionException;
 
 @ProtectedCircuit
 public class BrokenService {
